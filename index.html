@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking Password</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="content">
+        <h2 style="text-align: center;">LET ME KNOW WHO YOU ARE?</h2>
+        <div class="main">
+            <label for="input-user" id="user" class="user">
+                <p class="text">User</p>
+            </label>
+            <input type="text" id="input-user" class="input-user" placeholder="User name">
+
+            <label for="input-password" id="password" class="password">
+                <p class="text">Password</p>
+            </label>
+            <input type="text" placeholder="Your password" id="input-password" id="input-password">
+            <br>
+            <span class="condition" id="one-upper">-one characters capitalization(ABCD...)</span>
+            <br>
+            <span class="condition" id="one-number">-one number (0-9)</span>
+            <br>
+            <span class="condition" id="one-special-characters">-one special characters . , / ? ...</span>
+            <br>
+            <span class="condition" id="more-6">-more than 6 characters</span>
+
+            <label for="" id="re-enter-password" class="re-enter-password">
+                <p class="text">Re-enter your password</p>
+            </label>
+            <input type="text" placeholder="Re-enter your password" class="input-re-enter-password" id="input-re-entter-password">
+        </div>
+        <button type="input-submit" id="input-submit">submit</button>
+        
+    </div>
+
+    <script src="./js.js"></script>
+</body>
+</html>
